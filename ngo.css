@@ -121,3 +121,227 @@ padding: 30px;
   height: 150px;
   background-color: rgba(249, 0, 0, 0.21);
 }
+@media (max-width: 576px) {
+  .grid-container4 {
+    display: grid;
+    grid-template-columns:130px 30px 100px auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+    grid-template-rows: 66px 160px 25px 60px;
+  }
+  .ngo_main_title{
+    /*She is the activism*/
+    font-size: 21px;
+    line-height: 30px;
+
+  }
+  .ngo_cnt{
+    /* I feel strongly that all children */
+width: 160px;
+height: 130px;
+padding: 20px;
+font-size: 8px;
+line-height: 11px;
+transform: translateY(20%);
+  }
+
+.ngo_img{
+    /* rihanna-british-vogue-3-ht-rc-230215_1676486622213_hpEmbed_22x15_992 2 */
+
+
+width:450px;
+border-radius: 15px 0px 0px 15px;
+transform: translateX(-40%);
+}
+.ngo_cnt_bg{
+    /* Rectangle 19 */
+
+width: 160px;
+height: 220px;
+border-radius: 0px 15px 15px 0;
+transform: translateY(10%);
+
+}
+.ngo_mask_r{
+  /* R */
+width: 213px;
+height: 96px;
+font-size: 400px;
+transform: translateX(-70%) translateY(-180%);
+
+}
+.ngo_bg_r{
+  /* R */
+
+  width: 213px;
+  height: 96px;
+font-size: 400px;
+transform:translateX(-40%) translateY(-250%);
+
+}
+.ngo_quote{
+
+/* God just has a way of working things out the way he wants to and you have no say in that. */
+width: 180px;
+height: 30px;
+font-size: 8px;
+line-height: 10px;
+padding: 10px;
+transform:translateX(-85%) translateY(20%);
+
+}
+.ngo_quote_bg{
+
+  /* God just has a way of working things out the way he wants to and you have no say in that. */
+  width: 175px;
+  height: 70px;
+  transform:translateX(-85%) translateY(15%) ;
+  
+}
+.button-text{
+  font-size: 4px;
+ }
+ button.learn-more {
+  width: 4rem;
+ }
+  
+ button.learn-more .circle {
+
+
+  width: 1rem;
+  height: 1rem;
+  
+  border-radius: 1.625rem;
+ }
+ button.learn-more .circle .icon.arrow {
+  left: 0.3rem;
+  width: 1.4rem;
+  height: 0.4rem;
+ }
+ button.learn-more .circle .icon.arrow::before {
+  right: 0.03rem;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+ }
+ .icon.arrow{
+  transform: translateX(-75%) translateY(80%);
+ }
+ button.learn-more .button-text {
+  transform: translate(0%, -30%); /* Center the text */
+  margin-left: 0.3rem;
+
+}
+ 
+}
+@media (min-width: 577px) and (max-width: 991px) {
+  .grid-container4 {
+    display: grid;
+    grid-template-columns:200px 30px 250px auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+    grid-template-rows: 100px 230px 35px 90px;
+  }
+  .ngo_main_title{
+    /*She is the activism*/
+    font-size: 32px;
+    line-height: 50px;
+  
+  }
+  .ngo_cnt{
+    /* I feel strongly that all children */
+
+width: 200px;
+height: 250px;
+padding: 10px;
+font-size: 12px;
+line-height: 15px;
+transform: translateY(20%);
+  }
+
+.ngo_img{
+    /* rihanna-british-vogue-3-ht-rc-230215_1676486622213_hpEmbed_22x15_992 2 */
+width:620px;
+height: auto;
+border-radius: 30px 0px 0px 30px;
+transform: translateX(-15%);
+}
+.ngo_cnt_bg{
+    /* Rectangle 19 */
+width: 200px;
+height: 300px;
+transform: translateY(10%);
+
+}
+.ngo_mask_r{
+  /* R */
+
+width: 313px;
+height: 143px;
+font-size: 600px;
+transform: translateX(-40%) translateY(-180%);
+
+}
+.ngo_bg_r{
+  /* R */
+  width: 313px;
+  height: 143px;
+  font-size: 600px;
+transform:translateX(-10%) translateY(-250%);
+
+}
+.ngo_quote{
+
+/* God just has a way of working things out the way he wants to and you have no say in that. */
+width: 190px;
+height: 31px;
+font-size: 12px;
+line-height: 16px;
+padding: 15px;
+
+}
+.ngo_quote_bg{ 
+  /* God just has a way of working things out the way he wants to and you have no say in that. */
+  width: 250px;
+  height: 90px;
+}
+.button-text{
+  font-size: 8px;
+ }
+ button.learn-more {
+  width: 8rem;
+ }
+  
+ button.learn-more .circle {
+
+
+  width: 1rem;
+  height: 1rem;
+  
+  border-radius: 1.625rem;
+ }
+ button.learn-more .circle .icon.arrow {
+  left: 0.3rem;
+  width: 1.4rem;
+  height: 0.4rem;
+ }
+ button.learn-more .circle .icon.arrow::before {
+  right: 0.03rem;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+ }
+ .icon.arrow{
+  transform: translateX(-75%) translateY(80%);
+ }
+ button.learn-more .button-text {
+  transform: translate(-8%, -50%); /* Center the text */
+  margin-left: 0.2rem;
+
+}
+ 
+}

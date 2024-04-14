@@ -522,6 +522,27 @@
       grid-row: 8/8;
       font-size: 3px;
     }
+
+    .content2 {
+      /* Learn More */
+      font-size: 14px;
+    }
+    /*learn More*/
+     
+     button.learn-more {
+      width: 3rem;
+      height: auto;
+      transform: translateY(50%);
+     }
+     
+     button.learn-more .circle {
+      width: 1rem;
+      height: 1rem;
+      border-radius: 1.625rem;
+  
+     }
+  
+
   }
   
   @media (min-width: 577px) and (max-width: 991px) {

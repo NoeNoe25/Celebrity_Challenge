@@ -2,7 +2,7 @@ footer {
     text-align: center;
     background-color: #000000; /* Change to your desired background color */
     padding: 20px 0; /* Adjust padding as needed */
-    width: 1320px; /* Set the width */
+    max-width: 1320px; /* Set the width */
   margin: 0 auto; /* Center the footer horizontally */
   }
   
@@ -13,7 +13,7 @@ footer {
     font-family: "Tiro Devanagari Marathi";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     color: white;
     line-height:5px; 
 
@@ -29,15 +29,15 @@ footer {
 .icon.footer {
   display: flex;
   justify-content: center;
-  margin-top: 5px; /* Add margin-top for spacing */
+  margin-top: 0px; /* Add margin-top for spacing */
 }
 
 .icon.footer i {
-  margin: 0 5px; /* Adjust spacing between icons */
+  margin: 5px; /* Adjust spacing between icons */
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 991px)  {
   .footer-content {
     flex-direction: column;
   }
