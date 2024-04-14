@@ -1,0 +1,273 @@
+:root {
+    --secondary-text: #ff0000;
+    --title-font: "Tiro Devanagari Marathi";
+    --main-bg: #3c0000;
+    --main-font: #ffffff;
+    --third-font: "Source Serif 4", serif;
+    --white_bg: #ffffff;
+    --secondary_bg: rgba(249, 0, 0, 0.33);
+    --main_content_font: "Thasadith", sans-serif;
+  }
+  .grid-container3 {
+    display: grid;
+    grid-template-columns:105px 320px 320px 320px 105px ;
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+    grid-template-rows: auto auto auto 300px; 
+    max-height: 3000px;
+    overflow: hidden;
+  }
+  .card-1{
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+.CEO_main_title{
+    /* She is the CEO */
+    grid-column: 1/span 5;
+    grid-row: 1;
+font-family: var(--title-font);
+font-style: italic;
+font-weight: 400;
+font-size: 96px;
+line-height: 128px;
+color: var(--main-font);
+}
+.image{
+    border-radius:30px ;
+}
+.card{
+border-radius: 30px;
+background: rgba(0, 0, 0, 0.6);
+border-radius: 30px;
+font-family: 'Tiro Devanagari Marathi';
+font-style: normal;
+font-weight: 400;
+
+}
+.card-title{
+    /* Savage X Fenty */
+font-size: 40px;
+line-height: 53px;
+color: rgba(255, 0, 0, 0.94);
+
+}
+.card-text{
+    /* Rihanna co-owns Savage X Fenty, */
+font-size: 16px;
+line-height: 21px;
+color: var(--main-font);
+
+}
+.card-2{
+    grid-row: 2;
+    grid-column: 3;
+    transform: translateY(20%);
+}
+
+/*to change card2 image size*/
+.img2{
+    /* fentybeauty_lvmh_brandpage_zone3_1-1992x1296-1 1 */
+width: 320px;
+height: 165.96px;
+transform: rotate(0.22deg);
+
+}
+
+.card-3{
+    grid-row: 2;
+    grid-column: 4;
+}
+
+/*to change card3 image size*/
+.img3{
+/* fenty-skin_feature-launch 1 */
+width: 320px;
+height: 172px;
+
+}
+
+.bg-left{
+/* R */
+grid-column: 1;
+grid-row: 2/span 3;
+z-index: 0;
+width: 613px;
+height: 286px;
+font-family: var(--third-font);
+font-style: normal;
+font-weight: 400;
+font-size: 1300px;
+transform: translateY(-200%) translateX(-60%);
+color: rgba(249, 0, 0, 0.57);
+}
+.bg-right{
+    /* R */
+
+grid-column: 5;
+grid-row: 2/span 3;
+width: 613px;
+height: 286px;
+font-family: var(--third-font);
+font-style: normal;
+font-weight: 400;
+font-size: 1300px;
+transform: translateY(-250%) translateX(-60%);
+color: rgba(249, 0, 0, 0.57);
+
+}
+.quote_ceo{
+    grid-column: 1;
+grid-row:  4;
+/* Don’t lower your standards for anything or anyone. */
+width: 309px;
+height: 63px;
+
+font-family: var(--title-font);
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+color:var(--main-font);
+z-index: 1;
+transform: translateY(100%);
+}
+
+/* Define media queries for different screen sizes */
+@media (max-width: 576px) {
+    .grid-container3 {
+      grid-template-columns:10px 100px 100px 100px 50px;
+      grid-template-rows: auto;
+    }
+    .card-1{
+        grid-column: 2;
+        grid-row: 2;
+        width:100%;
+      }
+    
+    .CEO_main_title{
+        /* She is the CEO */
+    font-size: 32px;
+    line-height: 128px;
+  
+    }
+    .image{
+        border-radius:30px ;
+        width: 320px;
+        height: 165.96px;
+    }
+    .card{
+    border-radius: 30px;
+    width: 18rem;
+    
+    }
+    .card-title{
+        /* Savage X Fenty */
+    font-size: 36px;
+    line-height: 50px;
+    }
+    .card-text{
+        /* Rihanna co-owns Savage X Fenty, */
+    font-size: 14px;
+    line-height: 18px;
+ 
+    
+    }
+    .card-2{
+        grid-row: 3;
+        grid-column: 2;
+        transform: translateY(0%);
+    }
+    
+    /*to change card2 image size*/
+    .img2{
+        /* fentybeauty_lvmh_brandpage_zone3_1-1992x1296-1 1 */
+    width: 320px;
+    height: 165.96px;
+    transform: rotate(0.22deg);
+    
+    }
+    
+    .card-3{
+        grid-row: 4;
+        grid-column: 2;
+    }
+    
+    /*to change card3 image size*/
+    .img3{
+    /* fenty-skin_feature-launch 1 */
+    width: 320px;
+    height: 172px;
+    
+    }
+    
+    .bg-left{
+    /* R */
+    grid-column: 1;
+    grid-row: 2/span 3;
+    font-size: 1300px;
+    transform: translateY(-200%) translateX(-60%);
+    
+    
+    }
+    .bg-right{
+        /* R */
+    
+    grid-column: 5;
+    grid-row: 3/span 4;
+    font-size: 1300px;
+    z-index:-1;
+    transform: translateY(-30%) translateX(-60%);
+    
+    }
+    .quote_ceo{
+    grid-column: 4;
+    grid-row:  4;
+    /* Don’t lower your standards for anything or anyone. */
+    width: 109px;
+    height: 63px;
+    font-size: 12px;
+    line-height: 15px;
+    z-index: 1;
+    text-align: right;
+    justify-self: self-end;
+    transform: translateY(770%);
+    }
+  }
+
+  @media (min-width: 577px) and (max-width: 991px) {
+
+    .grid-container3 {
+        grid-template-columns:55px 320px 320px 320px 105px;
+        grid-template-rows: auto;
+      }
+    .card-3{
+        grid-row: 5;
+        grid-column: 2;
+    }
+
+    .bg-right{
+        /* R */  
+    grid-column: 3;
+    grid-row: 3/span 5;
+    transform: translateY(-250%) translateX(-10%);
+   
+    
+    }
+    .quote_ceo{
+        grid-column:3;
+        grid-row:  5;
+        /* Don’t lower your standards for anything or anyone. */
+        width: 209px;
+        height: 80px;
+        font-size: 12px;
+        line-height: 15px;
+        z-index: 1;
+        text-align: right;
+        justify-self: self-end;
+        transform: translateY(630%);
+        }
+
+  }
+
+  

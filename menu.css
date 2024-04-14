@@ -1,0 +1,472 @@
+:root {
+    --white_bg: #ffffff;
+    --secondary_bg: rgba(249, 0, 0, 0.33);
+    --main_content_font: "Thasadith", sans-serif;
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: 100px 1fr 400px auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+    grid-template-rows: 90px 150px auto;
+  }
+  
+  .rihana_green {
+    /* Rihanna-green */
+  
+    grid-column: 2/3;
+    border-radius: 30px 0px 30px 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: auto;
+    height: 600px;
+    z-index: 1;
+  }
+  .rihana_green_bg {
+    grid-column: 2/3;
+    grid-row: 2 / span 2;
+    height: 500px;
+    width: 200px;
+    background-color: var(--white_bg);
+    border-radius: 30px;
+    z-index: 0;
+  }
+  .ceo_content {
+    /* Rihanna, CEO of Fenty Beauty and Fenty, */
+    grid-column: 2/3;
+    grid-row: 4;
+    color: var(--white_bg);
+    text-align: right;
+    width: 260px;
+    font-family: var(--main_content_font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    justify-self: end;
+    z-index: 3;
+  }
+  
+  .mask_R {
+    grid-column: 1;
+    grid-row: 1;
+    width: 613px;
+    height: 286px;
+    z-index: 2;
+    font-family: "Source Serif 4";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1200px;
+    line-height: 1782px;
+    transform: translateY(-120.4%) translateX(-10%);
+    color: rgba(249, 0, 0, 0.57);
+  }
+  
+  .menu_quote {
+    /* Keep your eyes on the finish line and not on the turmoil around you */
+  
+    grid-column: 1;
+    grid-row: 4;
+    width: 309px;
+    height: 63px;
+    font-family: "Tiro Devanagari Marathi";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    z-index: 2;
+    transform: translateY(400.4%);
+  }
+  
+  .rihana_ceo {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 436px;
+    height: 247px;
+    display: block; /* Make the image a block-level element */
+    transition: transform 0.3s; /* Add a transition for smooth hover effect */
+  }
+  
+  .rihana_ceo_bg {
+    /*ceo background*/
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 400px;
+    height: 153px;
+    background: var(--secondary_bg);
+    border-radius: 30px;
+    transform: translateY(62.4%);
+  }
+  .rihana_ceo_txt {
+    /* She is the CEO */
+    grid-column: 4/5;
+    grid-row: 2;
+    font-family: "Tiro Devanagari Marathi";
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(16px, 3vw, 48px);
+    line-height: 50px;
+    /* or 104% */
+    color: #ffffff;
+  }
+  
+  .rihana_artist {
+    grid-column: 4;
+    grid-row: 3;
+    border-radius: 30px 0px 30px 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 290px;
+    height: auto;
+    border-radius: 30px 0px 30px 0px;
+    transform: translateX(-1%);
+    display: block; /* Make the image a block-level element */
+    transition: transform 0.3s; /* Add a transition for smooth hover effect */
+  }
+  
+  .rihana_artist_bg {
+    /*artist background*/
+    grid-column: 4;
+    grid-row: 3;
+    width: 225px;
+    height: 250px;
+    background: var(--secondary_bg);
+    border-radius: 30px 0px 0px 30px;
+    transform: translateY(28.4%) translateX(10.4%);
+  }
+  .rihana_artist_txt {
+    font-family: "Tiro Devanagari Marathi";
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(16px, 3vw, 48px);
+    line-height: 50px;
+    color: #ffffff;
+    text-align: right;
+  }
+  .rihana_artist_content {
+    font-family: var(--main_content_font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(3.5px, 3vw, 16px);
+    line-height: 21px;
+    text-align: right;
+    color: #ffffff;
+  }
+  
+  .artist_content {
+    grid-column: 3/4;
+    grid-row: 3;
+    width: 350px;
+    justify-self: end;
+    transform: translateY(22.4%);
+  }
+  
+  .rihana_ngo {
+    /* ngo */
+    justify-self: end;
+    grid-column: 3;
+    grid-row: 4;
+    height: auto;
+    width: 250px;
+    display: block; /* Make the image a block-level element */
+    transition: transform 0.3s; /* Add a transition for smooth hover effect */
+  }
+  
+  .rihana_ngo_bg {
+    /*artist background*/
+    z-index: -1;
+    justify-self: end;
+    grid-column: 3;
+    grid-row: 4;
+    width: 300px;
+    height: 275px;
+    background: var(--secondary_bg);
+    border-radius: 30px;
+    transform: translateY(28.4%);
+  }
+  
+  .rihana_ngo_txt {
+    font-family: "Tiro Devanagari Marathi";
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(16px, 3vw, 48px);
+    line-height: 50px;
+    color: #ffffff;
+  }
+  
+  .rihana_ngo_content {
+    font-family: var(--main_content_font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(3.5px, 3vw, 16px);
+    line-height: 21px;
+    color: #ffffff;
+    width: 240px;
+    justify-self: end;
+  }
+  
+  .ngo_content {
+    grid-column: 4;
+    grid-row: 4;
+    justify-self: end;
+    transform: translateY(32.4%) translateX(-19.4%);
+  }
+  
+  a {
+    display: block; /* Make the link a block-level element */
+    text-decoration: none; /* Remove underlines from the link */
+  }
+  
+  a:hover {
+    transform: scale(1.1); /* Scale the image to 110% when hovering */
+  }
+  
+  @media (max-width: 576px) {
+    .grid-container2 {
+      display: grid;
+      grid-template-columns: 25px 160px 90px auto;
+      grid-column-gap: 3px;
+      grid-row-gap: 2px;
+      grid-template-rows: 30px 30px 120px;
+    }
+    .rihana_green {
+      /* Rihanna-green */
+      width: auto;
+      height: 200px;
+    }
+    .rihana_green_bg {
+      height: 90px;
+      width: 20px;
+    }
+    .ceo_content {
+      /* Rihanna, CEO of Fenty Beauty and Fenty, */
+      width: 120px;
+      height: 150px;
+      line-height: 10px;
+      overflow: hidden; /* Hides any overflow */
+      text-overflow: ellipsis;
+      font-size: 6px;
+    }
+  
+    .mask_R {
+      font-size: 400px;
+      transform: translateY(-250.4%) translateX(-10%);
+      color: rgba(249, 0, 0, 0.57);
+    }
+  
+    .menu_quote {
+      /* Keep your eyes on the finish line and not on the turmoil around you */
+  
+      line-height: 15px;
+      width: 90px;
+      height: 20px;
+      font-size: 8px;
+    }
+  
+    .rihana_ceo_txt {
+      line-height: 15px;
+    }
+    .rihana_ceo {
+      transform: translateX(-8%);
+      width: auto;
+      height: 60px;
+      display: block; /* Make the image a block-level element */
+      transition: transform 0.3s; /* Add a transition for smooth hover effect */
+    }
+  
+    .rihana_ceo_bg {
+      /*ceo background*/
+  
+      width: 80px;
+      height: 37px;
+      border-radius: 5px;
+    }
+  
+    .rihana_artist {
+      width: 100px;
+      height: auto;
+      transform: translateY(4%) ;
+    }
+  
+    .rihana_artist_bg {
+      /*artist background*/
+  
+      width: 75px;
+      height: 80px;
+      border-radius: 5px 0px 0px 5px;
+      transform: translateY(50%) translateX(10.4%);
+    }
+  
+    .rihana_artist_txt {
+      font-size: 16px;
+      line-height: 15px;
+    }
+    .rihana_artist_content {
+      line-height: 10px;
+      overflow: hidden; /* Hides any overflow */
+      text-overflow: ellipsis;
+      font-size: 6px;
+    }
+  
+    .artist_content {
+      width: 85px;
+      height: 100px;
+      line-height: 10px;
+      overflow: hidden; /* Hides any overflow */
+      text-overflow: ellipsis;
+      font-size: 6px;
+    }
+  
+    .rihana_ngo {
+      /* ngo */
+  
+      transform: translateY(14%) translateX(-6%);
+      width: 70px;
+      height: auto;
+    }
+  
+    .rihana_ngo_bg {
+      /*artist background*/
+  
+      width: 100px;
+      height: 75px;
+      border-radius: 5px;
+      transform: translateY(78%);
+    }
+  
+    .rihana_ngo_content {
+      width: 80px;
+      font-size: 6px;
+      line-height: 10px;
+    }
+    .rihana_ngo_txt {
+      line-height: 15px;
+    }
+  
+    .ngo_content {
+      transform: translateY(30%) translateX(-19.4%);
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 991px) {
+    .grid-container2 {
+      display: grid;
+      grid-template-columns: 50px 250px 204px auto;
+      grid-column-gap: 15px;
+      grid-row-gap: 5px;
+      grid-template-rows: 80px 75px 150px auto;
+    }
+    .rihana_green {
+      /* Rihanna-green */
+      width: auto;
+      height: 315px;
+      border-radius: 15px;
+    }
+    .rihana_green_bg {
+      transform: translateY(-20.4%);
+      height: 250px;
+      width: 100px;
+      border-radius: 15px;
+    }
+    .ceo_content {
+      /* Rihanna, CEO of Fenty Beauty and Fenty, */
+      width: 160px;
+      font-size: 8px;
+      line-height: 10px;
+    }
+  
+    .mask_R {
+      width: 613px;
+      height: 286px;
+      font-size: 600px;
+      line-height: 0px;
+      transform: translateY(90.4%) translateX(-5%);
+    }
+  
+    .menu_quote {
+      /* Keep your eyes on the finish line and not on the turmoil around you */
+  
+      width: 150px;
+      height: 23px;
+      font-size: 12px;
+      line-height: 16px;
+      transform: translateY(400.4%);
+    }
+  
+    .rihana_ceo {
+      width: auto;
+      height: 130px;
+      transform: translateY(12%) translateX(-2%);
+    }
+  
+    .rihana_ceo_bg {
+      /*ceo background*/
+      width: 204px;
+      height: 90px;
+      border-radius: 15px;
+      transform: translateY(80%);
+    }
+    .rihana_ceo_txt {
+      font-size: 24px;
+      line-height: 25px;
+    }
+  
+    .rihana_artist {
+      width: 140px;
+      height: auto;
+      transform: translateX(0.4%) translateY(-4.5%);
+    }
+  
+    .rihana_artist_bg {
+      /*artist background*/
+  
+      width: 112px;
+      height: 125px;
+      border-radius: 15px 0px 0px 15px;
+      transform: translateY(13.4%) translateX(10.4%);
+    }
+    .rihana_artist_txt {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    .rihana_artist_content {
+      font-size: 8px;
+      line-height: 11px;
+    }
+  
+    .artist_content {
+      transform: translateY(12%);
+      width: 200px;
+      justify-self: end;
+    }
+  
+    .rihana_ngo {
+      /* ngo */
+  
+      transform: translateX(-3%) translateY(0%);
+      width: 125px;
+      height: auto;
+    }
+  
+    .rihana_ngo_bg {
+      /*artist background*/
+  
+      width: 150px;
+      height: 110px;
+      border-radius: 15px;
+      transform: translateY(60%) translateX(0%);
+    }
+    .rihana_ngo_txt {
+      font-size: 24px;
+      line-height: 25px;
+    }
+    .rihana_ngo_content {
+      font-size: 8px;
+      line-height: 11px;
+      width: 120px;
+    }
+    .ngo_content {
+      transform: translateY(32.4%) translateX(-65.4%);
+    }
+  }
+  

@@ -1,0 +1,606 @@
+/* Ask God for forgiveness, and leave your regrets in the past */
+:root {
+    --secondary-text: #ff0000;
+    --title-font: "Tiro Devanagari Marathi";
+    --main-bg: #3c0000;
+    --main-font: #ffffff;
+    --third-font: "Source Serif 4", serif;
+  }
+  hr{
+    color: var(--main-font);
+  }
+  /*burger icon from nav*/
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+    color: var(--main-font);
+  }
+  .navbar {
+    font-family: var(--third-font);
+    font-size: 16px;
+
+  }
+  
+  
+  body {
+    background-color: var(--main-bg);
+  }
+  
+  .quote {
+    grid-column: 2 / 4;
+    grid-row: 4; /* Adjusted to start from the 4th row and end at the 6th row */
+    font-family: var(--title-font);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--secondary-text);
+  }
+  
+  .container {
+    max-width: 1320px;
+    padding: 10px;
+    overflow: hidden; /* Hides any overflow */
+    text-overflow: ellipsis;
+    font-size: 6px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 30px 170px 200px 60px 290px 350px auto;
+    grid-template-rows: 80px 130px 80px 130px 100px 60px 180px 100px;
+  }
+  .content1 {
+    /* Robyn Rihanna Fenty is a Barbadian singer */
+    grid-column: 2 / 4;
+    grid-row: 5;
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+  }
+  .content2 {
+    /* Learn More */
+    grid-column: 2 /4;
+    grid-row: 6;
+    font-family: var(--title-font);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  .quote1 {
+    /* “ */
+    grid-column: 1;
+    grid-row: 3;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100, "YTLC" 500;
+    font-size: 128px;
+    line-height: 186px;
+    color: #ffffff;
+  }
+  .total_sale {
+    /* 250M+ */
+    grid-column: 2 /4;
+    grid-row: 7;
+    font-family: "Unna";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 55px;
+    color: #ffffff;
+  }
+  /* records sold worldwide */
+  .record {
+    grid-column: 2 /4;
+    grid-row: 8;
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+    transform: translateY(-130%);
+  }
+  /* 10M+ */
+  .tenM {
+    grid-column: 3/ 4;
+    grid-row: 7;
+  }
+  
+  .albums {
+    /* albums sold in US */
+    grid-column: 3/ 4;
+    grid-row: 8;
+  }
+  
+  .bg_R {
+    /* R */
+  
+    grid-column: 4 / 5;
+    grid-row: 1;
+    transform: translateY(-400%) translateX(-100%);
+    font-weight: 400;
+    font-size: 1000px;
+    font-family: var(--third-font);
+    font-optical-sizing: auto;
+    font-style: normal;
+    z-index: 0;
+    color: #ffffff;
+  }
+  /* ihana */
+  .mask_text {
+    grid-column: 5;
+    grid-row: 7/8;
+    transform: translateY(-21.5%) translateX(30%);
+    font-family: var(--third-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    z-index: 4;
+    color: rgba(255, 0, 0, 0.91);
+  }
+  
+  .home_img {
+    /* Image from Home*/
+    grid-column: 4/6;
+    grid-row: 2;
+    width: auto;
+    height: 787px;
+    z-index: 1;
+    transform: translateY(-12%) translateX(-3.2%);
+  }
+  .highlight_rect {
+    /* Rectangle 4 */
+    grid-column: 6;
+    grid-row: 4;
+    transform: translateY(-20%) translateX(-20%);
+    width: 720px;
+    height: 150px;
+    z-index: 2;
+    background: rgba(249, 0, 0, 0.33);
+  }
+  .sign {
+    /* 225px-Rihanna-signature 1 */
+    width: 226px;
+    height: 96px;
+    grid-column: 7;
+    transform: translateY(-5%);
+    grid-row: 4;
+    z-index: 3;
+  }
+  
+  .home_footer {
+    /* Rectangle 3 */
+    grid-column: 1/8;
+    grid-row: 8;
+    background: #000000;
+    z-index: 3;
+  }
+  .icon {
+    color: #ffffff;
+    grid-column: 2;
+    grid-row: 8;
+    z-index: 4;
+    font-size: 20px;
+    transform: translateY(35%);
+  }
+  .bi {
+    margin-right: 10px;
+  }
+  
+  /*9*/
+  .total_grammy {
+    transform: translateY(10%);
+    grid-column: 6;
+    grid-row: 8;
+    z-index: 4;
+    font-family: "Unna";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #ffffff;
+  }
+  
+  /*13*/
+  .total_us_music {
+    transform: translateY(10%) translateX(55%);
+    grid-column: 6;
+    grid-row: 8;
+    z-index: 4;
+    font-family: "Unna";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #ffffff;
+  }
+  
+  /*13*/
+  .total_billboard {
+    transform: translateY(10%) translateX(100%);
+    grid-column: 6;
+    grid-row: 8;
+    z-index: 4;
+    font-family: "Unna";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #ffffff;
+  }
+  
+  .billboard {
+    transform: translateY(60%) translateX(61%);
+    grid-column: 6/8;
+    grid-row: 8/8;
+    z-index: 4;
+    font-family: "Tiro Devanagari Marathi";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+  }
+  
+  .grammy {
+    transform: translateY(60%);
+    grid-column: 6/8;
+    grid-row: 8/8;
+    z-index: 4;
+    font-family: "Tiro Devanagari Marathi";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+  }
+  
+  .us_music {
+    transform: translateY(60%) translateX(34%);
+    grid-column: 6/8;
+    grid-row: 8/8;
+    z-index: 4;
+    font-family: "Tiro Devanagari Marathi";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+  }
+  /*Responsive to mobile*/
+  @media (max-width: 576px) {
+    .container {
+      max-width: 576px;
+      padding: 5px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: 10px 60px 60px 60px 40px 80px 55px;
+      grid-template-rows: 10px 30px 20px 30px 20px 10px 60px 30px;
+    }
+    .quote {
+      grid-column: 2 / 4;
+      grid-row: 4;
+      font-size: 10px;
+      line-height: 15px;
+    }
+    .content1 {
+      /* Robyn Rihanna Fenty is a Barbadian singer */
+      grid-column: 2 / 4;
+      grid-row: 5;
+      font-size: 5px;
+      line-height: 7px;
+    }
+    .content2 {
+      /* Learn More */
+      font-size: 5px;
+      line-height: 22px;
+    }
+    .quote1 {
+      /* “ */
+      transform: translateY(-130%);
+      grid-column: 1;
+      grid-row: 2;
+      font-size: 20px;
+    }
+    .total_sale {
+      /* 250M+ */
+      grid-column: 2;
+      grid-row: 7;
+      font-weight: 400;
+      font-size: 12px;
+    }
+  
+    /* records sold worldwide */
+    .record {
+      grid-column: 2;
+      grid-row: 8;
+      font-size: 3px;
+      transform: translateY(-100%);
+    }
+    /* 10M+ */
+    .tenM {
+      grid-column: 3/ 4;
+      grid-row: 7;
+    }
+  
+    .albums {
+      /* albums sold in US */
+      grid-column: 3/ 4;
+      grid-row: 8;
+      transform: translateY(-100%);
+    }
+  
+    .bg_R {
+      /* R */
+      grid-column: 4;
+      grid-row: 1;
+      transform: translateY(-400%) translateX(0%);
+      font-weight: 400;
+      font-size: 200px;
+    }
+    /* ihana */
+    .mask_text {
+      transform: translateY(-10.5%) translateX(-3%);
+      font-size: 60px;
+      z-index: 4;
+    }
+  
+    .home_img {
+      /* Image from Home*/
+      width: auto;
+      height: 187px;
+      transform: translateY(0%) translateX(-3.2%);
+    }
+    .highlight_rect {
+      /* Rectangle 4 */
+      grid-column: 5/8;
+      grid-row: 4;
+      transform: translateY(60%) translateX(0%);
+      width: 170px;
+      height: 30px;
+    }
+    .sign {
+      /* 225px-Rihanna-signature 1 */
+      grid-column: 6;
+      grid-row: 4;
+      width: 46px;
+      height: 20px;
+      transform: translateY(110%) translateX(150%);
+    }
+  
+    .home_footer {
+      /* Rectangle 3 */
+      grid-column: 1/8;
+      grid-row: 8;
+    }
+    .icon {
+      grid-column: 2;
+      grid-row: 8;
+      font-size: 7px;
+      transform: translateY(35%);
+    }
+    .bi {
+      margin-right: 2px;
+    }
+  
+    /*9*/
+    .total_grammy {
+      transform: translateY(15%) translateX(0%);
+      grid-column: 6;
+      grid-row: 8;
+      font-size: 12px;
+    }
+  
+    /*13*/
+    .total_us_music {
+      transform: translateY(15%) translateX(58%);
+      grid-column: 6;
+      grid-row: 8;
+      font-size: 12px;
+    }
+  
+    /*13*/
+    .total_billboard {
+      transform: translateY(15%) translateX(110%);
+      grid-column: 6;
+      grid-row: 8;
+      font-size: 12px;
+    }
+  
+    .billboard {
+      transform: translateY(40%) translateX(66%);
+      grid-column: 6/8;
+      grid-row: 8/8;
+      z-index: 4;
+      font-size: 3px;
+      color: #ffffff;
+    }
+  
+    .grammy {
+      transform: translateY(40%);
+      grid-column: 6/8;
+      grid-row: 8/8;
+      font-size: 3px;
+    }
+  
+    .us_music {
+      transform: translateY(40%) translateX(35%);
+      grid-column: 6/8;
+      grid-row: 8/8;
+      font-size: 3px;
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 991px) {
+    .container {
+      max-width: 768px;
+      padding: 8px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: 15px 130px 130px 30px 140px 170px auto;
+      grid-template-rows: 40px 40px 40px 70px 65px 35px 90px 50px;
+    }
+    .quote {
+      grid-column: 2 / 4;
+      grid-row: 4;
+      font-size: 24px;
+      line-height: 20px;
+    }
+    .content1 {
+      /* Robyn Rihanna Fenty is a Barbadian singer */
+      grid-column: 2 / 4;
+      grid-row: 5;
+      font-size: 12px;
+      line-height: 15px;
+    }
+    .content2 {
+      /* Learn More */
+      grid-column: 2 /4;
+      grid-row: 6;
+      font-size: 12px;
+      line-height: 11px;
+    }
+    .quote1 {
+      /* “ */
+      grid-column: 1;
+      grid-row: 3;
+      font-size: 64px;
+      transform: translateY(-120%);
+    }
+    .total_sale {
+      /* 250M+ */
+      grid-column: 2 /4;
+      grid-row: 7;
+      font-size: 20px;
+    }
+    /* records sold worldwide */
+    .record {
+      grid-column: 2 /4;
+      grid-row: 8;
+      font-size: 10px;
+      line-height: 11px;
+      transform: translateY(-100%);
+    }
+    /* 10M+ */
+    .tenM {
+      grid-column: 3/ 4;
+      grid-row: 7;
+    }
+  
+    .albums {
+      /* albums sold in US */
+      grid-column: 3/ 4;
+      grid-row: 8;
+    }
+  
+    .bg_R {
+      /* R */
+  
+      grid-column: 4 / 5;
+      grid-row: 1;
+      transform: translateY(-400%) translateX(-100%);
+      font-size: 500px;
+    }
+    /* ihana */
+    .mask_text {
+      grid-column: 5;
+      grid-row: 7/8;
+      transform: translateY(-22.5%) translateX(30%);
+      font-size: 100px;
+    }
+  
+    .home_img {
+      /* Image from Home*/
+      grid-column: 4/6;
+      grid-row: 2;
+      height: 387px;
+      transform: translateY(-12%) translateX(-3.2%);
+    }
+    .highlight_rect {
+      /* Rectangle 4 */
+      grid-column: 6;
+      grid-row: 4;
+      transform: translateY(-20%) translateX(-20%);
+      width: 385px;
+      height: 75px;
+    }
+    .sign {
+      /* 225px-Rihanna-signature 1 */
+      width: 126px;
+      height: 46px;
+      grid-column: 7;
+      transform: translateY(-5%);
+      grid-row: 4;
+    }
+  
+    .home_footer {
+      /* Rectangle 3 */
+      grid-column: 1/8;
+      grid-row: 8;
+      background: #000000;
+    }
+    .icon {
+      grid-column: 2;
+      grid-row: 8;
+      transform: translateY(35%);
+      font-size: 12px;
+    }
+    .bi {
+      margin-right: 5px;
+    }
+  
+    /*9*/
+    .total_grammy {
+      transform: translateY(10%) translateX(5%);
+      grid-column: 6;
+      grid-row: 8;
+      font-size: 22px;
+    }
+  
+    /*13*/
+    .total_us_music {
+      transform: translateY(10%) translateX(73%);
+      grid-column: 6;
+      grid-row: 8;
+      font-size: 22px;
+    }
+  
+    /*13*/
+    .total_billboard {
+      transform: translateY(10%) translateX(130%);
+      grid-column: 6;
+      grid-row: 8;
+      font-size: 22px;
+    }
+  
+    .billboard {
+      transform: translateY(60%) translateX(73%);
+      grid-column: 6/8;
+      grid-row: 8/8;
+      z-index: 4;
+      font-size: 8px;
+      line-height: 11px;
+    }
+  
+    .grammy {
+      transform: translateY(60%) translateX(3%);
+      grid-column: 6/8;
+      grid-row: 8/8;
+      font-size: 8px;
+      line-height: 11px;
+    }
+  
+    .us_music {
+      transform: translateY(60%) translateX(41%);
+      grid-column: 6/8;
+      grid-row: 8/8;
+      font-size: 8px;
+      line-height: 11px;
+    }
+  }
+  
